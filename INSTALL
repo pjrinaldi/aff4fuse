@@ -1,0 +1,6 @@
+Ensure aff4-cpp-lite is installed on your system according to their install instructions.
+Once installed run the following on the command line:
+
+g++ -Wall aff4fuse.cpp -I/usr/include/fuse3 -lfuse3 -lpthread  -laff4 -o aff4mount
+
+This will produce an aff4mount executable which you can copy to your /usr/local/bin/
