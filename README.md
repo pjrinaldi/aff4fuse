@@ -1,7 +1,7 @@
 # AFF4 Fuse Mounter
 Program to fuse mount an AFF4 image as a raw DD image
 
-This is a really basic quick put together fuse program to mount AFF4 images as a raw image, which you can then run through the sleuthkit tools, or any other tools you want.
+This is a really basic quick (about 1 hr) put together fuse program to mount AFF4 images as a raw image, which you can then run through the sleuthkit tools, or any other tools you want.
 I have even then use apfs-fuse to mount an APFS volume from the fuse mounted raw image of a AFF4 image using this tool.
 
 I based it off the AFF affuse code and libfuse examples.
